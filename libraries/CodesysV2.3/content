@@ -1,2 +1,5 @@
 File List
 ---------
+  WAGOIO.lib
+    Blocks to deal with Analog Input and Analog Output modules in the esay way ;-)
+  
