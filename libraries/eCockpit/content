@@ -1,7 +1,8 @@
 Libraries
----------
+=========
 
-+ WAGOIO.lib
+WAGOIO.lib
+-----------
     Blocks to deal with Analog Input and Analog Output modules the esay way.    
     + AI_FLEX: for Analog input modules
     + AQ_FLEX: for Analog Ouput modules
