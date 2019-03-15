@@ -1,0 +1,13 @@
+Librerias 
+---------
+
++ WAGOIO.lib
+    * Simplifica el manejo de la informacion de los modulos analógicos de I/O.    
+      + AI_FLEX: Modulos de entradas analogicas
+      + AQ_FLEX: Modulos de salidas analogicas
+
++ WagoModbCoupler.lib
+    * Communicacion con acopladores de WAGO con comunicaciones Modbus/tcp, pe 750-352 and 740-342.
+    * Intercambio rapido de infoamcion de I/O, toda la infromacion se intercambia periodicaemnet en un unico ciclo
+    * Configura watch-dog de Modbus del acoplador de manera que toodas las salidas se ponen a cero en caso de interrupirse
+      la comunicacion con el maestro.
