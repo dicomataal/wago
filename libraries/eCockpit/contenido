@@ -1,0 +1,7 @@
+Librerias 
+---------
+
++ WAGOIO.lib
+    * Simplifica el manejo de la informacion de los modulos analógicos de I/O.    
+      + AI_FLEX: Modulos de entradas analogicas
+      + AQ_FLEX: Modulos de salidas analogicas
