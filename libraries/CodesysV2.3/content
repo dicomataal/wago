@@ -1,5 +1,15 @@
-File List
+Libraries
 ---------
-  WAGOIO.lib
-    Blocks to deal with Analog Input and Analog Output modules in the esay way ;-)
-  
+
++ WAGOIO.lib
+    Blocks to deal with Analog Input and Analog Output modules the esay way.    
+    + AI_FLEX: for Analog input modules
+    + AQ_FLEX: for Analog Ouput modules
+
++ WagoModbCoupler.lib
+    * Block to integrate I/O data from Modbus/tcp couplers from WAGO, ie 750-352 and 740-342.
+    * Fast I/O data exchange, all data is changed periodically in a single cycle.
+    * Configures the Modbus watch-dog into the coupler so all outputs are set to 0 when the
+      communication with the masters stops.
+
+     
