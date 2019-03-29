@@ -1,0 +1,51 @@
+
+	MODULOS DE ENTRADAS ANALOGICA
+	* Si el móulo no está soportada se activa la alarma de instrumento y 
+		el valor retornado es 0;
+	* Para los sensores temperatura tipo RTD y Termopar se ignoran los
+		parámetros de escalado a excepcion de los módulos  configurables como el 
+		modulo 750-451 ya que esteos se utilizan para genearr la alarma de Sensor.
+			
+	Tarjetas Soportadas.
+	=====================
+		HART
+			482 y 482001 (750-482/001) 
+
+		0..20 mA
+			452, 453, 465, 470
+			480
+			472
+
+		4..20 mA, 
+			454, 466, 455, 473
+			485
+			474
+
+		RTD: No requieren configurar valores de Rango de escala.
+			461, 481   --- 460
+			451: No calcula error de sensor.
+
+		Termopar: Si hay error de sensor retorn valor 0
+			469: 2 canales
+			458: 8 canales configurables. 
+
+		NTC: 
+			464020 (464/020)
+
+		0..10v
+			459, 467, 468, 477, 478, 497
+
+		-10v..+10v:
+			 457, 476			
+			
+	Control de Versiones:
+	---------------------
+	v3.00 28/03/2019
+		* Corregido problema de escaldo
+
+	v2.12 04/03/2019
+		* Corregido codigo 750-451. Esta referencia precisa definir
+			la valores máximo y mínimo para generar la señal de error
+			de lo contario esta estará activa continuamente. 
+	
+
