@@ -13,4 +13,4 @@ Módulos de Entradas Analógicas
 Módulos de Entradas Analógicas 
 
 ## WagoModusCoupler
-Comunicacion con acopladores Modbus/Tcp de WAGO (750-352 y similares) 
+- **WagoModbTcpCoupler** Comunicacion con acopladores Modbus/Tcp de WAGO (750-352 y similares). Tiene lasopcion del que el dispositivo esclavo ponga todas sus salidas a cero, tanto analogicas como digitales, en el caso de que se interrumpan las comunicaciones.     
