@@ -1,6 +1,6 @@
 # WAGOIO
 ## Archivos
 ### Codesys :orange_book:
-WAGOIO.lib
+- WAGOIO.lib
 ### eCockpit :green_book:
-WAGOIO.compiled-library
+- WAGOIO.compiled-library
