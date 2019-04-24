@@ -24,7 +24,7 @@ Funciones auxiliares para las librerias de accesoa a Bases de Datos SQL de WAGO
 - **DTToSqlDATETIME** Convierte en variable de Fecha y Hora de tipo **DT** en el formato del tipo **DATTETIME**  de las bases de  **SQL**, variable de tipo.
 - **SqlCmdBuilder** :exclamation: Los comandos **SQL** se componen utilzando la estructura de datos __asSqlQuery__. Este bloque permite hacerlo de SQL de manera segura.
 
-### DicoStrCollection :orange_book: :green_book:
+### DicoCollections :orange_book: :green_book:
 Colecciones de datos    
 - **RingFIFO** :exclamation: Gestion buffer circular con multiples consumidores. Este tipo de estructuras de detos son ideales en situaciones en los que la velocidad de procesado pueda ser lenta que las producción de los mismos, por ejemplo envío de alarmas mediente SMS.
 
