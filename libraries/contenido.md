@@ -1,6 +1,6 @@
  
 # Librerias para **Codesys v2.3** y **eCockpit** 
-##Símbolos
+## Símbolos
 - :orange_book: Disponible para **Codesys v2.3** 
 - :green_book:  Disponible para **eCockpit**
 - :warning:  Hay diferencias funcionales entre la version para **Codesys v2.3** y **eCockpit**  
