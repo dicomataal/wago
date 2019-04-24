@@ -17,8 +17,11 @@ Comunicacion con acopladores Modbus/Tcp.
 - **DTToRelianceTimeStamp** Convierte en variable de Fecha y Hora de tipo **DT** en el formato utilizado por **Reliance** en sus bases de datos. Se utiliza en aplicaciones donde el PLC escribe directamente en las tablas de la base de datos SQL.
 
 ## DicoWagoSql :orange_book: :green_book:
-Integración Bases de datos SQL
+Funciones auxiliares para las librerias de accesoa a Bases de Datos SQL de WAGO 
 - **DTToRelianceTimeStamp** Convierte en variable de Fecha y Hora de tipo **DT** en el formato utilizado por **Reliance** en sus bases de datos. Se utiliza en aplicaciones donde el PLC escribe directamente en las tablas de la base de datos SQL.
 - **DTToSqlDATETIME** Convierte en variable de Fecha y Hora de tipo **DT** en el formato del tipo **DATTETIME**  de las bases de  **SQL**, variable de tipo.
 - **SqlCmdBuilder** Los comandos **SQL** se componen utilzando la estructura de datos __asSqlQuery__. Este bloque permite 
    hacerlo de SQL de manera segura.
+
+## DicoStrUtil :orange_book: :green_book:
+Funciones adicionales para manupilar variables el tipo **__STRING__**  (texto)   
