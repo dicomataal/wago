@@ -4,10 +4,11 @@
 - :green_book: eCockpit ".compiled-library"   
 
 ### -RingFiFo :green_book:
-  Gestion de buffer en memoria del PLC, tratandolo como un buffer circular, tipo FIFO, con varios consumidores simultaneos
+  Gestion de buffer un buffer circular, tipo FIFO, en memoria del PLC. Soporta con varios consumidores simultaneos. Para evitar que las informacion se pierda en caso de perdida de tension se pueden definir los componentes asociados en memoria de retencios
+  
 
 ### -RingFiFoFile :green_book:
-  Gestion de buffer archivo en una unidad de almacenamiento del PLC, tratandolo como un buffer circular, tipo FIFO, con varios    consumidores simultaneos
+  Gestion de buffer un buffer circular, tipo FIFO, almacenado en un archivo dentro del PLC. Soporta con varios consumidores simultaneos. Es una alternativa al RingFifo cuando se necesita preservar la informacion pero el PLC no tiene de memoria retantiva suficiente. 
 
 
 
