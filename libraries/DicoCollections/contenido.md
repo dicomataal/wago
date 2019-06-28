@@ -3,8 +3,7 @@
 - :orange_book: Codesys ".lib"               
 - :green_book: eCockpit ".compiled-library"   
 
-### -RingFiFo :green_book:
-  Gestion de buffer un buffer circular, tipo FIFO, en memoria del PLC. Soporta con varios consumidores simultaneos. Para evitar que las informacion se pierda en caso de perdida de tension se pueden definir los componentes asociados en memoria de retencios
+### -RingFiFo :green_book: ###  Gestion de buffer un buffer circular, tipo FIFO, en memoria del PLC. Soporta con varios consumidores simultaneos. Para evitar que las informacion se pierda en caso de perdida de tension se pueden definir los componentes asociados en memoria de retencios
   
 
 ### -RingFiFoFile :green_book:
