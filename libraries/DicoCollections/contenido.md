@@ -8,8 +8,8 @@
 
 
 ### Leyenda
-- Codesys :orange_book
-- eCockpit :green_book
+- :orange_book Codesys 
+- :green_book eCockpit
 
 ## Archivos de libreria
 - .compiled-library :green_book:
