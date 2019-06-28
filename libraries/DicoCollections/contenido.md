@@ -1,12 +1,12 @@
 # DicoCollections
 #### Archivos
--  <filename>.lib               :orange_book: Codesys
--  <filename>.compiled-library  :green_book: eCockpit 
+- :orange_book: Codesys "<filename>.lib"               
+- :green_book: eCockpit <filename>.compiled-library   
 
-## - RingFiFo
+-##RingFiFo
   Gestion de buffer en memoria del PLC, tratandolo como un buffer circular, tipo FIFO, con varios consumidores simultaneos
 
-## - RingFiFoFile
+## -RingFiFoFile
   Gestion de buffer archivo en una unidad de almacenamiento del PLC, tratandolo como un buffer circular, tipo FIFO, con varios    consumidores simultaneos
 
 
