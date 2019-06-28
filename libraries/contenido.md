@@ -24,10 +24,10 @@ Funciones auxiliares para las librerias de accesoa a Bases de Datos SQL de WAGO
 - **DTToSqlDATETIME** Convierte en variable de Fecha y Hora de tipo **DT** en el formato del tipo **DATTETIME**  de las bases de  **SQL**, variable de tipo.
 - **SqlCmdBuilder** :exclamation: Los comandos **SQL** se componen utilzando la estructura de datos __asSqlQuery__. Este bloque permite hacerlo de SQL de manera segura.
 
-### DicoCollections :orange_book: :green_book:
+### DicoCollections  :green_book: :orange_book: :exclamation:
 Colecciones de datos    
-- **RingFIFO** :exclamation: Gestion buffer circular con multiples consumidores. Este tipo de estructuras de detos son ideales en situaciones en los que la velocidad de procesado pueda ser lenta que las producción de los mismos, por ejemplo envío de alarmas mediente SMS.
-- **RingFIFOFile** :exclamation: Igual que el anterior pero la informacion se almacena en un archivo en lugar de hacerlo en memoria. Se utiliza cuando se require que los datos sean persistentes y el PLC no tiene memoria retentiva suficiente. Al estar usar sistemas de almacenamiento flash y tener carater circular, es conveniente sobrediemensionar el tamaño del buffer para reducir el numero de escrituras sobre la misma celda de almancenamiento.       
+- **RingFIFO** Gestion de buffer circular con multiples consumidores. Este tipo de estructuras de detos son ideales en situaciones en los que la velocidad de procesado pueda ser lenta que las producción de los mismos, por ejemplo envío de alarmas mediente SMS.
+- **RingFIFOFile**  Igual que el anterior pero la informacion se almacena en un archivo en lugar de hacerlo en memoria. Se utiliza cuando se require que los datos sean persistentes y el PLC no tiene memoria retentiva suficiente. Al estar usar sistemas de almacenamiento flash y tener carater circular, es conveniente sobrediemensionar el tamaño del buffer para reducir el numero de escrituras sobre la misma celda de almancenamiento.       
 
 
 ### DicoStrUtil :orange_book: :green_book:
