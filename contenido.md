@@ -6,6 +6,11 @@ El objetivo de este proyecto es del hacer público el material de apoyo desarrol
 [Librerias para **Codesys v2.3** y **eCockpit**](./libraries/contenido.md)
 
 
-# Herramientas
+# DicoCollections
 
-# Notas de Aplicacion
+* #RingFIFO
+  Buffer in PLC's memory handled as ring FIFO with several simultaneous consumers  
+
+* #RingFIFOFile
+  Buffer stored in a file handled as ring FIFO with several simultaneous consumers
+
