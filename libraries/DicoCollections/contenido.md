@@ -3,7 +3,7 @@
 - :orange_book: Codesys "<filename>.lib"               
 - :green_book: eCockpit <filename>.compiled-library   
 
-##-RingFiFo
+## -RingFiFo
   Gestion de buffer en memoria del PLC, tratandolo como un buffer circular, tipo FIFO, con varios consumidores simultaneos
 
 ## -RingFiFoFile
